@@ -17,7 +17,6 @@ import { lineChartData, stagewiseData, towerwiseData } from "../data/chartData";
 export default function ChartsPage() {
   return (
     <div className="min-h-screen p-6 bg-white space-y-10">
-      <button className="text-blue-600 hover:underline">&larr; Back</button>
 
       <h2 className="text-xl font-semibold">Overall project completion %</h2>
 

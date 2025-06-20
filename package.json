@@ -12,6 +12,7 @@
     "@heroicons/react": "^2.2.0",
     "firebase": "^11.9.1",
     "next": "15.3.4",
+    "ol": "^10.6.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "recharts": "^2.15.3"

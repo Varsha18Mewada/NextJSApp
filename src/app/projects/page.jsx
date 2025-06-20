@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import projects from "../data/projects";
+import { MapPinIcon } from "@heroicons/react/24/outline";
 
 export default function ProjectsPage() {
   const [search, setSearch] = useState("");
@@ -44,7 +45,12 @@ export default function ProjectsPage() {
               <h2 className="text-md font-semibold truncate">
                 {project.title}
               </h2>
-              <span className="text-xs text-gray-500">{project.location}</span>
+              <span className="text-xs text-gray-500 flex">
+                <MapPinIcon
+                  className="w-4 h-4 text-red-600"
+                />
+                {project.location}
+              </span>
             </div>
             <div className="text-sm text-gray-700 mb-1">
               Orders: <span className="font-medium">{project.orders}</span>
