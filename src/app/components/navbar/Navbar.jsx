@@ -9,7 +9,6 @@ import {
   ArrowLeftCircleIcon,
   FolderIcon,
   ChartBarIcon,
-  MapIcon,
 } from "@heroicons/react/24/outline";
 import { auth } from "../../../firebase/config.js";
 
@@ -52,13 +51,6 @@ export default function Navbar() {
               >
                 <ChartBarIcon className="w-5 h-5 mr-1" />
                 Charts
-              </Link>
-              <Link
-                href="/charts"
-                className="flex items-center hover:text-gray-300"
-              >
-                <MapIcon className="w-5 h-5 mr-1" />
-                Maps
               </Link>
               <button
                 onClick={handleLogout}
