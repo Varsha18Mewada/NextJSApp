@@ -1,6 +1,6 @@
 # Next.js Auth + Project Viewer App
 
-This is a sample Next.js application that includes:
+This is a Next.js application that includes:
 
 - Firebase Email/Password Authentication (Login, Signup, Logout, Forgot Password)
 - Protected Routes (only authenticated users can access protected pages)
@@ -10,3 +10,6 @@ This is a sample Next.js application that includes:
 - Chart Integration using Recharts
 - Responsive and clean UI using Tailwind CSS
 - Heroicons for iconography
+
+# Demo Video
+https://drive.google.com/file/d/1NkQK31n7FbHoFUkJaKDTJlHXRJTmoLQ_/view
